@@ -12,6 +12,7 @@ git clone https://github.com/Pivotal-Jayson-Hairston/om-tools.git
 sudo su -
 cd /home/ubuntu/om-tools
 ./download_tools.sh
+exit
 ```
 
 3. Check and confirm the tools are loaded correctly:
