@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export VER=0.35.0
+export VER=`curl https://api.github.com/repos/pivotal-cf/om/releases | jq -r .[0].tag_name`
 
 wget https://github.com/pivotal-cf/om/releases/download/$VER/om-linux
 chmod 755 om-linux
