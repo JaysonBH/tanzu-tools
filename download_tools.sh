@@ -3,8 +3,8 @@
 export VER=`curl https://api.github.com/repos/pivotal-cf/om/releases | jq -r .[0].tag_name`
 
 wget https://github.com/pivotal-cf/om/releases/download/$VER/om-linux-$VER
-chmod 755 om-linux
-mv om-linux /usr/local/bin/om
+chmod 755 om-linux-$VER
+mv om-linux-$VER /usr/local/bin/om
 
 export VERP=0.0.49
 wget https://github.com/pivotal-cf/pivnet-cli/releases/download/v0.0.49/pivnet-linux-amd64-$VERP
