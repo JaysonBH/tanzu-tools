@@ -2,7 +2,7 @@
 
 export VER=`curl https://api.github.com/repos/pivotal-cf/om/releases | jq -r .[0].tag_name`
 
-wget https://github.com/pivotal-cf/om/releases/download/$VER/om-linux
+wget https://github.com/pivotal-cf/om/releases/download/$VER/om-linux-$VER
 chmod 755 om-linux
 mv om-linux /usr/local/bin/om
 
