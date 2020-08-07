@@ -8,10 +8,10 @@ Simple script to add to Any Opsmanger to download the Pivnet, OM &amp; CF CLI's
 
 ```
 cd /home/ubuntu/
-git clone https://github.com/Pivotal-Jayson-Hairston/om-tools.git
+git clone https://github.com/JaysonBH/tanzu-tools.git
 sudo su -
-cd /home/ubuntu/om-tools
-./download_tools.sh
+cd /home/ubuntu/tanzu-tools/Ops-Manager-Download-CLIs
+./download_om_tools.sh
 exit
 ```
 
