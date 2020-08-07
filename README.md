@@ -1,24 +1,12 @@
-# om-tools
+# Tanzu Tools
 
-Simple script to add to Any Opsmanger to download the Pivnet, OM &amp; CF CLI's
+This Repository contains a collection of useful scripts, apps, plugins and binaries useful to Tanzu customers to do 
+non-built-in operations that are sometimes useful in special cases.
 
-1. ssh into your Ops manager.
+#### OpsManager Tools
 
-2. Run the below to Download the tools:
+|  |  |
+| ---- | --- |
+| [Download CLI's](Ops-Manager-Download-CLIs/README.md) | Simple script to add to Any Opsmanger to download the Pivnet, OM &amp; CF CLI's |
 
-```
-cd /home/ubuntu/
-git clone https://github.com/Pivotal-Jayson-Hairston/om-tools.git
-sudo su -
-cd /home/ubuntu/om-tools
-./download_tools.sh
-exit
-```
-
-3. Check and confirm the tools are loaded correctly:
-
-```
-pivnet -v
-om -v
-cf -v
-```
+NOTE: Use these tools at your own risk. These are not Officially Supported by any corporate entity. 
